@@ -5,9 +5,12 @@ function adicionar(){
     let imagem = document.getElementById("imagemCard").value;
 
 
-    let lista = document.getElementById("lista").innerHTML;
 
-    lista += "<h2>"+serie+"</h2>"+"<p>"+descricao+"</p>"
+
+
+
+    let lista = document.getElementById("lista").innerHTML;
+    lista += +"<h2>"+serie+"</h2>"+"<p>"+descricao+"</p>"+"<img src ="+imagem+" />";
 
     document.getElementById("lista").innerHTML = lista ; 
 
