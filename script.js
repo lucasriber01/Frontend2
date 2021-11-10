@@ -10,7 +10,7 @@ function adicionar(){
 
 
     let lista = document.getElementById("lista").innerHTML;
-    lista += +"<h2>"+serie+"</h2>"+"<p>"+descricao+"</p>"+"<img src ="+imagem+" />";
+    lista += "<img src ="+imagem+" />"+"<h2>"+serie+"</h2>"+"<p>"+descricao+"</p>"+"<hr>";
 
     document.getElementById("lista").innerHTML = lista ; 
 
