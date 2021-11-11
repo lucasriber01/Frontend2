@@ -7,8 +7,11 @@
 input{ 
     height: 2rem; 
     margin: 0.7rem; 
-    border: 0; 
+    border: 8px;
+    box-shadow:3px 3px #4CAF50;
+    border-color: #4b4c4d; 
     border-radius: 0.5rem; 
+
 } 
 
 body{ 
@@ -101,38 +104,3 @@ button {
     line-height: 100px;
 }
 
-#lista {
-  box-shadow: 0 8px 16px 0 rgba(30, 230, 23, 0.787);
-  transition: 0.3s;
-  width: 45%;
-  border-radius: 10px;
-  padding-bottom: 10px;
-  background-color: rgba(26, 26, 26, 0.671);
-  color: white;
-
-}
-
-hr{
-    color: white;
-    width: 10px;
-    height: 10px;
-}
-
-img {
-    width: 40%;
-    border-radius: 25px;
-    background-color: rgba(26, 26, 26, 0.671); 
-    text-align: center;   
-    justify-content: center;    
-}
-
-h2{
-    background-color: rgba(26, 26, 26, 0.671);    
-    color: white;
-    text-align: center;
-}
-p{
-    background-color: rgba(26, 26, 26, 0.671);    
-    color: white;
-    text-align: center;
-}
